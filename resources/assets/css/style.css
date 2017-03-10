@@ -1,0 +1,43 @@
+/*@import url('custom.css');*/
+
+/**
+ * Fonts
+ */
+@font-face {
+    font-family: SQMarket;
+    /*src: url('../font/SQMarket/SQMarket-Bold.otf');*/
+    src: url('../fonts/SQMarket/SQMarket-Bold.otf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: SQMarket;
+    src: url('../fonts/SQMarket/SQMarket-Medium.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: SQMarket;
+    src: url('../fonts/SQMarket/SQMarket-Regular.otf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: SQMarket;
+    src: url('../fonts/SQMarket/SQMarket-Light.otf');
+    font-weight: 100;
+}
+/*END*/
+
+
+body{
+    font-family: SQMarket sans-serif;
+    font-weight: 300;
+}
+
+.background-color{
+    background-color: black !important;
+}
+div{
+    background-color: black;
+}
+body{
+    background-color: black!important;
+}

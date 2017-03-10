@@ -1,0 +1,167 @@
+
+.badge.badge-success {
+    /*background-color: #00bcd4;*/
+    /*background-color: #e51c23;*/
+    background-color: #ff5722;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.badge.badge-success[href]:hover,
+.badge.badge-success[href]:focus {
+    background-color: #71a436;
+}
+
+
+.pre-h3{
+    /*margin-top: 60px;*/
+}
+/*Vote Center */
+.cand_sec{
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.cand_sec img{
+    border-radius: 10%;
+    height: 129px;
+    width: auto;
+    margin: 10px auto;
+}
+.cand_sec p{
+    font-size: 12px;
+}
+.cand_sec .btn{
+    margin: 15px 0 10px 0;
+    font-size: 12px;
+}
+.cand_sec{  }
+/*END*/
+
+/*Candidate Profile*/
+.cand_prof{
+    padding: 40px 20px;
+    /*margin-top: 60px;*/
+    background-color: #e1e1e1;
+    border-radius: 2%;
+}
+.cand_prof img{
+    border-radius: 50%;
+    height: 90px;
+    width: auto;
+    margin: 10px auto;
+}
+.cand_prof .course{
+    font-size: 10px;
+}
+.cand_prof .btn{
+    font-size: 10px;
+    padding: 5px;
+}
+.cand_prof{  }
+
+.cand_prof2{
+    padding: 40px 10px;
+    /*margin-top: 60px;*/
+    background-color: #e1e1e1;
+    border-radius: 1%;
+}
+.cand_prof2 h4{
+    color: #888;
+}
+.cand_prof2 p{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #323232;
+}
+.cand_prof2 img{
+    border-radius: 2px;
+    height: 200px;
+    width: auto;
+    margin: 20px auto 30px 50px;
+}
+.cand_prof2{  }
+/*END*/
+
+/*USER PROFILE*/
+.Profile_sect{}
+.Profile_sect img{
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+    margin-bottom: -40px;
+}
+.Profile_sect{}
+/*END*/
+
+/*FILE INPUT*/
+.fileinput .thumbnail {
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.fileinput {
+    margin-bottom: 9px;
+    display: inline-block;
+}
+.fileinput-exists .fileinput-new, .fileinput-new .fileinput-exists {
+    display: none;
+}
+.fileinput .btn {
+    vertical-align: middle;
+}
+.fileinput-exists .fileinput-new, .fileinput-new .fileinput-exists {
+    display: none;
+}
+.btn-file > input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    font-size: 23px;
+    height: 100%;
+    width: 100%;
+    direction: ltr;
+    cursor: pointer;
+}
+input[type="file"] {
+    display: block;
+}
+.fileinput .thumbnail > img {
+    max-height: 100%;
+}
+.thumbnail > img, .thumbnail a > img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.fileinput .btn {
+    vertical-align: middle;
+}
+.btn {
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.btn-default {
+    background-color: #fafafa !important;
+    color: #616161;
+}
+/*.btn {*/
+
+/*}*/
+/*END*/
